@@ -42,6 +42,7 @@ export class ProductCard extends Base {
           <h1>${this.product.title}</h1>
           <p>${this.product.description}</p>
         </main>
+        <a id="addToCart" href="google.com">Add to cart</a>
       </a> 
     `;
   }

@@ -8,6 +8,7 @@ import "./views/app-home";
 (async (root) => {
   const skeleton = root.querySelector('.skeleton');
   const main = root.querySelector('main');
+  const cardLength = 0;
 
   checkConnectivity({
     timeToCount: 3,
@@ -26,6 +27,8 @@ import "./views/app-home";
       document.documentElement.style.setProperty('--app-bg-color', '#858994');
     }
   });
+
+  
 
   const AppHome = main.querySelector('app-home');
   const AppProduct = main.querySelector('app-product');
